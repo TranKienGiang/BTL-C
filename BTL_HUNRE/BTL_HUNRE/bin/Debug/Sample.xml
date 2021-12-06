@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" type="xs:string" minOccurs="0" />
+              <xs:element name="Họ_x0020_tên" type="xs:string" minOccurs="0" />
+              <xs:element name="Hệ_x0020_số_x0020_lương" type="xs:string" minOccurs="0" />
+              <xs:element name="Số_x0020_ngày_x0020_làm" type="xs:string" minOccurs="0" />
+              <xs:element name="Nghỉ_x0020_có_x0020_phép" type="xs:string" minOccurs="0" />
+              <xs:element name="Nghỉ_x0020_không_x0020_phép" type="xs:string" minOccurs="0" />
+              <xs:element name="Thưởng_x0020_-_x0020_Phụ_x0020_cấp" type="xs:string" minOccurs="0" />
+              <xs:element name="Phụ_x0020_cấp_x0020_chức_x0020_vụ" type="xs:string" minOccurs="0" />
+              <xs:element name="Tổng_x0020_lương" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
